@@ -1,0 +1,14 @@
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\MainWindow.g.cs
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\App.g.cs
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App_MarkupCompile.cache
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App_MarkupCompile.lref
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\bin\Debug\Phone_Book_App.exe.config
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\bin\Debug\Phone_Book_App.exe
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\bin\Debug\Phone_Book_App.pdb
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App.csprojAssemblyReference.cache
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\MainWindow.baml
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App.g.resources
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App.Properties.Resources.resources
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App.csproj.GenerateResource.cache
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App.exe
+C:\Users\ssatvirs\source\repos\Satvir Singh_Final_Exam_Practical\Phone_Book_App\obj\Debug\Phone_Book_App.pdb

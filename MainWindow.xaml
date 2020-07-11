@@ -1,0 +1,73 @@
+﻿<Window x:Class="Phone_Book_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Phone_Book_App"
+        mc:Ignorable="d"
+        Title="Phone Book" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="2*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DataGrid Name="listDataGrid" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="4" Grid.RowSpan="10"   AutoGenerateColumns="False"  >
+            <DataGrid.Columns>
+               
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="130"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="130"/>
+                <DataGridTextColumn Header="Phone Number" Binding="{Binding PhoneNumber}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="First Name: " HorizontalAlignment="Right" FontSize="15"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Last Name: " HorizontalAlignment="Right" FontSize="15"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="Phone Number: " HorizontalAlignment="Right" FontSize="15"/>
+        <TextBox Name="firstName" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"  />
+        <TextBox Name="lastName" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" />
+        <TextBox Name="phoneNumber" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2"/>
+
+        <Button Name="addNewUser" Grid.Row="4" Grid.Column="1"  Content="Add New contact" Click="addNewUser_Click_1"   />
+        <Button Name="removeSelectedUser" Grid.Row="5" Grid.Column="1"  Content="Remove Contact" Click="removeSelectedUser_Click_1"  />
+
+        <TextBlock Grid.Row="7" Grid.Column="1" Text="Enter Last Name" FontSize="15"/>
+        <TextBox Name="toSearch" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" />
+        <Button Name="search" Grid.Row="8" Grid.Column="2"  Content="Search Phonebook" Click="search_Click_1"  />
+
+        <DataGrid Name="searchResults" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="3"   AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="150"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="150"/>
+                <DataGridTextColumn Header="Phone Number" Binding="{Binding PhoneNumber}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+
+
+
+
+    </Grid>
+</Window>
